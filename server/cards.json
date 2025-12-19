@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fire_wolf",
+    "name": "Fire Wolf",
+    "manaCost": 3,
+    "attack": 4,
+    "health": 2,
+    "type": "minion",
+    "rarity": "common",
+    "abilities": [{"trigger":"onSummon","effect":"deal 1 damage to enemy minion"}],
+    "statuses": [],
+    "description": "On summon: deal 1 damage to an enemy minion."
+  },
+  {
+    "id": "ice_shield",
+    "name": "Ice Shield",
+    "manaCost": 2,
+    "attack": 0,
+    "health": 0,
+    "type": "spell",
+    "rarity": "common",
+    "abilities": [{"trigger":"cast","effect":"give shield to friendly minion for 1 turn"}],
+    "statuses": [],
+    "description": "Give a friendly minion Shield for 1 turn."
+  },
+  {
+    "id": "toxic_dart",
+    "name": "Toxic Dart",
+    "manaCost": 1,
+    "attack": 0,
+    "health": 0,
+    "type": "spell",
+    "rarity": "common",
+    "abilities": [{"trigger":"cast","effect":"deal 1 damage and apply poison(2 turns)"}],
+    "statuses": [],
+    "description": "Deal 1 damage and apply Poison (2 turns)."
+  }
+]
